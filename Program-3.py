@@ -6,7 +6,7 @@ my_string = input("Enter A String : ")
 for index, letter1 in enumerate(my_string):
     for letter2 in my_string[index+1:]:
         if letter1 == letter2:
-            print("First Repeated Character Is : ", letter1)
+            print("First Repeated Character Is : ", letter2)
             exit(0)
 
 else:
