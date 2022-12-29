@@ -6,7 +6,7 @@ a lower case letter, a number and a minimum length.
 
 str = input("Enter the string: ")
 res = []
-if not any(x.isupper() for x in str):
+if not any(x.isupper() for x in str):       # The any() function returns True if any item in an iterable are true, otherwise it returns False.
     res.append("String must have 1 Uppercase Character.")
 if not any(x.islower() for x in str):
     res.append("String must have 1 Lowercase Character.")
