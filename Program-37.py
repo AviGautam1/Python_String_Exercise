@@ -8,6 +8,7 @@ def hex_to_rgb(hex):
 
     return tuple(rgb)
 
+
 print(hex_to_rgb('FFA501'))
 print(hex_to_rgb('FF0000'))
 print(hex_to_rgb('000000'))
